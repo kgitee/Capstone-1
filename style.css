@@ -1,0 +1,45 @@
+/*CSS Reset*/
+* {
+	margin: 0;
+	padding: 0;
+}
+body::before {
+  display: block;
+  content: '';
+  height: 60px;
+}
+
+.nav-link li a:hover{
+  color: #41d08c;
+}
+
+section {
+  width: 100%;
+  background-size: cover;
+}
+
+
+#gmap_canvas {
+  width: 600;
+  height: 450;
+  border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+}
+
+.contact {
+	color: #41d08c;
+}
+
+.about {
+	color: #41d08c;
+}
+
+.skills {
+  color: #41d08c;
+  font-weight: 200;
+}
